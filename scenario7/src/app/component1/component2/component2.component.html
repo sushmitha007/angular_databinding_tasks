@@ -1,0 +1,8 @@
+<h2>Component 2</h2>
+<form ngForm #demoForm class="form">
+  <mat-form-field>
+  <input matInput #enteredText placeholder="Enter your text here" [(ngModel)]="text" name="text">
+</mat-form-field>
+  <button mat-stroked-button color="primary" (click)="onSubmit()">Submit</button>
+</form>
+

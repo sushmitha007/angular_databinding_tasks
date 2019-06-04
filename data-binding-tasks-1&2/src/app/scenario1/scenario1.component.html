@@ -1,0 +1,7 @@
+<h1>Scenario 1</h1>
+<form ngForm #demoForm class="form">
+  <mat-form-field>
+  <input matInput #text placeholder="Enter your text here">
+</mat-form-field>
+  <button mat-stroked-button color="primary" (click)="onSubmit(text.value)">Submit</button>
+</form>
